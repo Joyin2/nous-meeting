@@ -1,0 +1,399 @@
+🧠 UI DEVELOPER INSTRUCTION REPORT
+NOUS MEETING – HOMEPAGE (MODERN, ANIMATED, AI SAAS)
+1️⃣ OVERALL WEBSITE DIRECTION (MANDATORY FOUNDATION)
+Product Identity
+
+Nous Meeting must clearly communicate:
+
+“An AI-powered meeting assistant that converts conversations into knowledge, action, and insight.”
+
+Visual Personality
+
+Professional
+
+Intelligent
+
+Calm AI
+
+Enterprise-ready
+
+Trust-focused
+
+Core Messages (Must Be Visible on Homepage)
+
+✔ AI summaries & transcripts
+✔ Searchable meeting history
+✔ Action items & insights
+✔ Integrations (Zoom, Teams, Google Meet, Slack, Notion)
+✔ Enterprise-grade security
+
+2️⃣ HOMEPAGE STRUCTURE (MANDATORY SECTIONS)
+SECTION 1: HERO SECTION (TOP FOLD)
+Purpose
+
+Immediately explain:
+
+What Nous Meeting does
+
+Why it matters
+
+What action to take
+
+Layout
+
+Centered content with animated background
+
+Headline (H1):
+
+From Meetings to Meaning
+
+Subtext (H2 / paragraph):
+
+Turns your meetings into actionable transcripts, live notes, intelligent summaries, and searchable insights—powered by AI.
+
+CTA Buttons
+
+Primary: Get Started
+
+Secondary: View Features
+
+Animation Requirements
+
+Headline: fade + slide up
+
+Subtext: delayed fade
+
+Buttons: hover glow + lift
+
+Background: subtle animated gradient or AI wave
+
+SECTION 2: PROBLEM EXPLANATION (WHY NOUS MEETING)
+Purpose
+
+Explain the pain before the solution
+
+Content Structure (3 Cards / Columns)
+
+Meetings Waste Time
+
+Notes get lost
+
+No clear takeaways
+
+No Context-Aware Memory
+
+Past meetings are forgotten
+
+No searchable knowledge base
+
+Manual Follow-ups Fail
+
+Action items missed
+
+No accountability
+
+Animation
+
+Cards fade in on scroll
+
+Icons animate lightly on hover
+
+SECTION 3: CORE FEATURES (MANDATORY & EXPANDED)
+Purpose
+
+Show what Nous Meeting does, clearly and visually.
+
+Layout
+
+Grid of feature cards (modular components)
+
+Feature Cards (ALL REQUIRED)
+1️⃣ AI Meeting Summaries
+
+Key takeaways
+
+Action items
+
+Speaker highlights
+
+Animation: summary lines auto-assemble
+
+2️⃣ Action Items & Follow-ups
+
+AI-detected tasks
+
+Ownership & deadlines
+
+Calendar sync
+
+Animation: checklist ticks in
+
+3️⃣ Auto Transcription
+
+Speaker-labeled transcripts
+
+Accurate, real-time
+
+No setup required
+
+Animation: typing text effect
+
+4️⃣ Searchable Meeting History
+
+Search across all meetings
+
+Keywords, speakers, dates
+
+Filters
+
+Animation: animated search cursor
+
+5️⃣ Sentiment & Participation Analysis
+
+Speaker engagement
+
+Sentiment trends
+
+Visual charts
+
+Animation: animated bar/line chart
+
+6️⃣ Multilingual Support
+
+Multiple languages
+
+Global teams
+
+Animation: language switch effect
+
+7️⃣ AI Chatbot for Meetings
+
+Ask questions like:
+
+“What did John say about pricing?”
+
+Instant answers
+
+Animation: chat bubble typing
+
+8️⃣ Smart Calendar Integration
+
+Action items synced
+
+Prioritized follow-ups
+
+Animation: calendar highlight pulse
+
+SECTION 4: INTEGRATIONS GRID (MANDATORY)
+Purpose
+
+Build trust and familiarity
+
+Layout
+
+Grid of logos:
+
+Zoom
+
+Microsoft Teams
+
+Google Meet
+
+Slack
+
+Notion
+
+(Expandable)
+
+Each Logo
+
+Small caption below:
+
+“Automatically capture meetings from Zoom”
+
+Animation
+
+Logos fade in
+
+Hover → slight scale + shadow
+
+SECTION 5: DASHBOARD PREVIEW (MANDATORY)
+Purpose
+
+Show the product in action
+
+Layout
+
+Split screen:
+
+Left: text explanation
+
+Right: dashboard mockup
+
+Dashboard Shows
+
+Transcripts
+
+Summaries
+
+Action items
+
+Charts & insights
+
+Animation
+
+Dashboard slides in
+
+UI elements gently pulse
+
+SECTION 6: SECURITY & COMPLIANCE (MANDATORY)
+Purpose
+
+Enterprise confidence & trust
+
+Content Blocks
+
+End-to-end encryption
+
+Role-based access control
+
+Data retention policies
+
+Audit logs
+
+Compliance readiness
+
+Visuals
+
+Lock icon
+
+Shield icons
+
+Compliance badges (generic)
+
+Animation
+
+Icons fade & scale subtly
+
+SECTION 7: FINAL CALL-TO-ACTION (MANDATORY)
+Purpose
+
+Conversion
+
+Content
+
+Heading:
+
+Ready to use Nous Meeting?
+
+CTA Button:
+
+Try Now
+
+Design
+
+Full-width section
+
+Gradient background
+
+Large button
+
+Animation
+
+Button glow pulse
+
+Background slow movement
+
+3️⃣ NAVIGATION SETUP (MANDATORY)
+Top Menu
+Home
+Features ▼
+  - Summaries
+  - Search
+  - Integrations
+  - Insights
+  - Security
+Solutions
+Resources
+Pricing
+Book a Demo
+Sign In
+Sign Up
+
+Behavior
+
+Sticky on scroll
+
+Glass blur effect
+
+Mobile hamburger menu
+
+4️⃣ VISUAL STYLE GUIDELINES (MANDATORY)
+Colors
+
+Dark blue primary
+
+White/light backgrounds
+
+Accent blue highlights
+(Keep palette close to original Nous Meeting)
+
+Fonts
+
+Clean sans-serif (Inter / Manrope)
+
+Icons
+
+Simple line icons
+
+Consistent stroke
+
+Layout
+
+Spacious
+
+Minimal
+
+Easy to scan
+
+5️⃣ RESPONSIVE REQUIREMENTS (MANDATORY)
+
+Desktop
+
+Tablet
+
+Mobile
+
+Mobile-first layout
+
+Touch-friendly buttons
+
+Reduced animation mode supported
+
+6️⃣ DEVELOPER PRIORITY LIST (MANDATORY)
+
+Homepage
+
+Core features section
+
+Security section
+
+Dashboard preview
+
+Navigation & footer
+
+Mobile responsiveness
+
+7️⃣ DEVELOPMENT NOTES (IMPORTANT)
+
+Use modular components
+
+Reusable cards
+
+Clean spacing system
+
+Animation via Framer Motion / CSS
+
+Performance first
+
+✅ FINAL OUTCOME
