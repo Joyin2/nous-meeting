@@ -29,7 +29,7 @@ export default function TermsOfUse() {
                     <div className="bg-white dark:bg-zinc-900/50 rounded-3xl p-8 md:p-12 border border-zinc-200 dark:border-zinc-800 shadow-sm">
                         
                         <p className="lead font-bold">
-                            PLEASE READ THESE TERMS OF USE ("TERMS") CAREFULLY BEFORE USING THIS WEBSITE OR APPLICATION. BY ACCESSING OR USING THE NOUS MEETING WEBSITE OR APPLICATION, INCLUDING ALL SUBPAGES ("NOUS MEETING"), YOU FULLY UNDERSTAND, ACKNOWLEDGE, AND AGREE TO BE BOUND BY THESE TERMS.
+                            PLEASE READ THESE TERMS OF USE (&quot;TERMS&quot;) CAREFULLY BEFORE USING THIS WEBSITE OR APPLICATION. BY ACCESSING OR USING THE NOUS MEETING WEBSITE OR APPLICATION, INCLUDING ALL SUBPAGES (&quot;NOUS MEETING&quot;), YOU FULLY UNDERSTAND, ACKNOWLEDGE, AND AGREE TO BE BOUND BY THESE TERMS.
                         </p>
 
                         <h2 className="text-2xl font-bold mt-10 mb-4 text-zinc-800 dark:text-white">I. USE OF NOUS MEETING</h2>
@@ -121,7 +121,7 @@ export default function TermsOfUse() {
                         <h2 className="text-2xl font-bold mt-10 mb-4 text-zinc-800 dark:text-white">VI. SERVICE DISCLAIMERS</h2>
                         <h3 className="text-xl font-semibold mt-6 mb-2">A. No Warranties</h3>
                         <p>
-                            Nous Meeting and its content are provided "as is" and "as available" without any warranties. We make no guarantees regarding the quality, accuracy, completeness, currency, or uninterrupted service of the platform or its materials.
+                            Nous Meeting and its content are provided &quot;as is&quot; and &quot;as available&quot; without any warranties. We make no guarantees regarding the quality, accuracy, completeness, currency, or uninterrupted service of the platform or its materials.
                         </p>
                         <h3 className="text-xl font-semibold mt-6 mb-2">B. Limitation of Liability</h3>
                         <p>

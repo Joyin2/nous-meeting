@@ -39,7 +39,7 @@ export default function About() {
               About Nous Meeting
             </div>
             <h1 className="text-5xl font-bold tracking-tight text-zinc-800 dark:text-white sm:text-7xl animate-rise">
-              We're on a mission to make meetings <span className="bg-gradient-to-r from-nous-blue to-nous-pink bg-clip-text text-transparent">more productive</span>
+              We&apos;re on a mission to make meetings <span className="bg-gradient-to-r from-nous-blue to-nous-pink bg-clip-text text-transparent">more productive</span>
             </h1>
             <p className="mt-8 text-xl text-zinc-600 dark:text-zinc-300 max-w-2xl mx-auto animate-fade">
               By turning conversations into actionable insights with AI.

@@ -74,7 +74,7 @@ export default function HelpCenter() {
 
                 <div className="mb-16">
                     <h3 className="text-2xl font-bold mb-8 text-center">Quick Overview</h3>
-                    <p className="text-center text-zinc-600 dark:text-zinc-400 mb-10">Here's a quick overview of what you can do with Nous Meeting:</p>
+                    <p className="text-center text-zinc-600 dark:text-zinc-400 mb-10">Here&apos;s a quick overview of what you can do with Nous Meeting:</p>
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                         {overviewItems.map((item, i) => (
                             <Tilt3D key={i} className="h-full">
@@ -146,7 +146,7 @@ export default function HelpCenter() {
                         <div className="text-nous-blue dark:text-nous-pink font-semibold mb-2">Get in Touch</div>
                         <h2 className="text-4xl font-bold text-zinc-800 dark:text-white mb-6">Still have questions?</h2>
                         <p className="text-lg text-zinc-600 dark:text-zinc-300 mb-10 leading-relaxed">
-                            Contact our support team and we'll get back to you as soon as possible
+                            Contact our support team and we&apos;ll get back to you as soon as possible
                         </p>
                         
                         <div className="space-y-8">
@@ -186,7 +186,7 @@ export default function HelpCenter() {
                                     <div>
                                         <label className="block text-sm font-medium text-zinc-700 dark:text-zinc-300 mb-2">Subject</label>
                                         <select className="w-full px-4 py-3 rounded-xl border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-900 focus:outline-none focus:ring-2 focus:ring-nous-blue/50 transition-all">
-                                            <option>What's this about?</option>
+                                            <option>What&apos;s this about?</option>
                                             <option>General Inquiry</option>
                                             <option>Technical Support</option>
                                             <option>Billing</option>

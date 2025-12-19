@@ -23,7 +23,7 @@ export default function Contact() {
                 Contact <span className="bg-gradient-to-r from-nous-blue to-nous-pink bg-clip-text text-transparent">Our Team</span>
                 </h1>
                 <p className="mt-8 text-xl text-zinc-600 dark:text-zinc-300 max-w-2xl mx-auto animate-fade leading-8">
-                Have a question or feedback? We'd love to hear from you. Our team is here to help and respond quickly.
+                Have a question or feedback? We&apos;d love to hear from you. Our team is here to help and respond quickly.
                 </p>
                 <div className="mt-10 flex justify-center gap-4 animate-fade">
                 <Link href="#contact-form" className="group rounded-full bg-gradient-to-r from-nous-blue to-nous-pink px-8 py-3 text-base font-medium text-white shadow-lg transition hover:shadow-xl hover:opacity-90">
@@ -44,9 +44,9 @@ export default function Contact() {
                     <div>
                         <div className="mb-12">
                             <div className="text-nous-blue dark:text-nous-pink font-semibold mb-2">Contact Information</div>
-                            <h2 className="text-4xl font-bold text-zinc-800 dark:text-white mb-6">Let's start a conversation</h2>
+                            <h2 className="text-4xl font-bold text-zinc-800 dark:text-white mb-6">Let&apos;s start a conversation</h2>
                             <p className="text-lg text-zinc-600 dark:text-zinc-300">
-                                Choose your preferred way to reach out to us. We're here to help and respond quickly.
+                                Choose your preferred way to reach out to us. We&apos;re here to help and respond quickly.
                             </p>
                         </div>
 
@@ -97,7 +97,7 @@ export default function Contact() {
 
                                 <div className="mb-8">
                                     <h3 className="text-2xl font-bold text-zinc-800 dark:text-white mb-2">Send us a message</h3>
-                                    <p className="text-zinc-600 dark:text-zinc-400">Fill out the form below and we'll get back to you as soon as possible.</p>
+                                    <p className="text-zinc-600 dark:text-zinc-400">Fill out the form below and we&apos;ll get back to you as soon as possible.</p>
                                 </div>
 
                                 <form className="space-y-6">
