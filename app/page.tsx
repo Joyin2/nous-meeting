@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Problem from "./components/Problem";
 import Features from "./components/Features";
+import VideoTutorial from "./components/VideoTutorial";
 import Integrations from "./components/Integrations";
 import Security from "./components/Security";
 import FinalCTA from "./components/FinalCTA";
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <Problem />
         <Features />
+        <VideoTutorial />
         <Integrations />
         <Security />
         <FinalCTA />

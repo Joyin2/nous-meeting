@@ -11,11 +11,11 @@ type Props = {
 export default function Tilt3D({ children, className, maxTilt = 8, scale = 1.02 }: Props) {
   const ref = useRef<HTMLDivElement | null>(null)
   const [style, setStyle] = useState<React.CSSProperties>({})
-  const reduceMotion = typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
   useEffect(() => {
     const el = ref.current
     if (!el) return
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     const handleMove = (e: PointerEvent) => {
       if (reduceMotion) return
       const rect = el.getBoundingClientRect()
@@ -40,7 +40,7 @@ export default function Tilt3D({ children, className, maxTilt = 8, scale = 1.02 
       el.removeEventListener('pointermove', handleMove)
       el.removeEventListener('pointerleave', handleLeave)
     }
-  }, [maxTilt, scale, reduceMotion])
+  }, [maxTilt, scale])
 
   return (
     <div

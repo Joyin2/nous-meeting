@@ -1,18 +1,8 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
-  --background: #ffffff;
-  --foreground: #27272a;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-.dark {
   --background: #0a0a0a;
   --foreground: #ededed;
 }
@@ -83,4 +73,40 @@ body {
 
 .text-glow {
   text-shadow: 0 1px 12px rgba(0, 0, 0, 0.6);
+}
+
+/* Zoom-style Swiper Customization */
+.zoom-swiper {
+  position: relative;
+}
+
+.zoom-swiper .swiper-pagination {
+  bottom: 0 !important;
+  position: relative !important;
+  margin-top: 40px;
+}
+
+.zoom-bullet {
+  width: 10px;
+  height: 10px;
+  background: #d4d4d8;
+  opacity: 1;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  margin: 0 6px;
+  cursor: pointer;
+}
+
+.dark .zoom-bullet {
+  background: #52525b;
+}
+
+.zoom-bullet-active {
+  width: 32px;
+  background: #422F9B;
+  border-radius: 5px;
+}
+
+.dark .zoom-bullet-active {
+  background: #BA37C3;
 }

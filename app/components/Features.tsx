@@ -1,9 +1,10 @@
 'use client'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Pagination, Autoplay } from 'swiper/modules'
+import { Pagination, Navigation, Autoplay } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/pagination'
+import 'swiper/css/navigation'
 
 const features = [
   {
@@ -71,36 +72,59 @@ export default function Features() {
         ))}
       </div>
 
-      {/* Desktop Layout (Swiper) */}
-      <div className="hidden md:block">
+      {/* Desktop Layout (Swiper - Zoom Style) */}
+      <div className="hidden md:block relative">
         <Swiper
-          modules={[Pagination, Autoplay]}
-          spaceBetween={50}
+          modules={[Pagination, Navigation, Autoplay]}
+          spaceBetween={30}
           slidesPerView={1}
           loop={true}
-          pagination={{ clickable: true }}
-          autoplay={{ delay: 5000, disableOnInteraction: false }}
-          className="pb-16"
+          navigation={{
+            nextEl: '.swiper-button-next-custom',
+            prevEl: '.swiper-button-prev-custom',
+          }}
+          pagination={{ 
+            clickable: true,
+            bulletClass: 'swiper-pagination-bullet zoom-bullet',
+            bulletActiveClass: 'swiper-pagination-bullet-active zoom-bullet-active',
+          }}
+          autoplay={{ delay: 6000, disableOnInteraction: false }}
+          speed={600}
+          className="zoom-swiper"
         >
           {features.map((f) => (
             <SwiperSlide key={f.title}>
-              <div className="mx-auto flex max-w-4xl flex-col items-center gap-8 bg-transparent text-center">
-                <div className="max-w-2xl">
-                  <h3 className="text-4xl font-bold text-zinc-800 dark:text-white">{f.title}</h3>
-                  <p className="mt-4 text-lg text-zinc-600 dark:text-zinc-300 leading-relaxed">{f.desc}</p>
+              <div className="mx-auto grid max-w-6xl grid-cols-1 lg:grid-cols-2 gap-12 items-center px-4">
+                {/* Text Content */}
+                <div className="flex flex-col justify-center space-y-6">
+                  <h3 className="text-4xl lg:text-5xl font-bold text-zinc-800 dark:text-white leading-tight">{f.title}</h3>
+                  <p className="text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed">{f.desc}</p>
                 </div>
-                <div className="relative aspect-video w-full overflow-hidden rounded-2xl bg-zinc-100 shadow-2xl dark:bg-zinc-800/50 dark:shadow-nous-blue/20">
+                {/* Image */}
+                <div className="relative aspect-video w-full overflow-hidden rounded-xl bg-white dark:bg-zinc-900 shadow-lg border border-zinc-200 dark:border-zinc-700">
                   <Image 
                     src={f.image} 
                     alt={f.title}
                     fill
-                    className="object-contain"
+                    className="object-contain p-4"
                   />
                 </div>
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
+        
+        {/* Custom Navigation Arrows */}
+        <button className="swiper-button-prev-custom absolute left-0 top-1/2 -translate-y-1/2 z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white dark:bg-zinc-800 shadow-lg border border-zinc-200 dark:border-zinc-700 transition-all duration-300 hover:scale-110">
+          <svg className="h-6 w-6 text-zinc-800 dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+        <button className="swiper-button-next-custom absolute right-0 top-1/2 -translate-y-1/2 z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white dark:bg-zinc-800 shadow-lg border border-zinc-200 dark:border-zinc-700 transition-all duration-300 hover:scale-110">
+          <svg className="h-6 w-6 text-zinc-800 dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
       </div>
     </section>
   )

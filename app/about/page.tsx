@@ -85,6 +85,7 @@ export default function About() {
                      alt="Team collaboration" 
                      fill 
                      className="object-cover"
+                     unoptimized
                    />
                 </div>
               </div>
