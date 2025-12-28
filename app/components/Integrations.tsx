@@ -1,13 +1,13 @@
 'use client'
 import Tilt3D from './Tilt3D'
-import { Video, Users, Camera, MessageSquare, FileText } from 'lucide-react'
+import Image from 'next/image'
 
 const integrations = [
-  { name: 'Zoom', caption: 'Automatically capture meetings from Zoom', icon: Video },
-  { name: 'Microsoft Teams', caption: 'Seamless Teams integration', icon: Users },
-  { name: 'Google Meet', caption: 'Auto-detect Meet sessions', icon: Camera },
-  { name: 'Slack', caption: 'Share summaries in Slack', icon: MessageSquare },
-  { name: 'Notion', caption: 'Sync action items to Notion', icon: FileText },
+  { name: 'Zoom', caption: 'Automatically capture meetings from Zoom', icon: '/images/zoom02.png' },
+  { name: 'Microsoft Teams', caption: 'Coming Soon', icon: '/images/microsoft-teams-icon.webp' },
+  { name: 'Google Meet', caption: 'Coming Soon', icon: '/images/Google_Meet.svg' },
+  { name: 'Slack', caption: 'Coming Soon', icon: '/images/slack.png' },
+  { name: 'Notion', caption: 'Coming Soon', icon: '/images/Notion_app_logo.png' },
 ]
 
 export default function Integrations() {
@@ -22,7 +22,13 @@ export default function Integrations() {
           <Tilt3D key={it.name}>
             <div className="group rounded-2xl border border-zinc-200 bg-white p-6 text-center shadow-sm transition hover:shadow-lg dark:border-zinc-700 dark:bg-zinc-900">
               <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-tr from-nous-blue to-nous-pink">
-                <it.icon className="h-6 w-6 text-white" />
+                <Image 
+                  src={it.icon} 
+                  alt={it.name}
+                  width={24}
+                  height={24}
+                  className="h-6 w-6"
+                />
               </div>
               <div className="mt-3 text-sm font-semibold">{it.name}</div>
               <div className="mt-1 text-xs text-zinc-600 dark:text-zinc-300">{it.caption}</div>
