@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Pagination, Navigation, Autoplay } from 'swiper/modules'
+import { Pagination, Autoplay } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/navigation'
@@ -50,7 +50,7 @@ export default function CardsShowcase() {
     <section className="mx-auto max-w-7xl px-6 py-20">
       {/* Header */}
       <div className="mx-auto max-w-3xl text-center mb-16">
-        <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-zinc-900 dark:text-white">
+        <h2 className="text-3xl font-bold tracking-tight text-zinc-800 dark:text-white">
           Experience the Future of Meetings
         </h2>
         <p className="mt-6 text-lg text-zinc-600 dark:text-zinc-300">
@@ -81,15 +81,11 @@ export default function CardsShowcase() {
         {/* Desktop Layout (Zoom-Style Swiper) */}
         <div className="hidden md:block relative">
           <Swiper
-            modules={[Pagination, Navigation, Autoplay]}
+            modules={[Pagination, Autoplay]}
             spaceBetween={24}
             slidesPerView={4}
             slidesPerGroup={1}
-            loop={false}
-            navigation={{
-              nextEl: '.cards-swiper-button-next',
-              prevEl: '.cards-swiper-button-prev',
-            }}
+            loop={true}
             pagination={{ 
               clickable: true,
               dynamicBullets: true,
@@ -102,14 +98,16 @@ export default function CardsShowcase() {
               <SwiperSlide key={card.id}>
                 <div className="group h-full">
                   {/* Card Container */}
-                  <div className="relative h-full flex flex-col">
+                  <div className="relative h-full flex flex-col rounded-xl bg-white dark:bg-zinc-800 shadow-lg border border-zinc-200 dark:border-zinc-700 transition-all duration-300 group-hover:shadow-2xl group-hover:scale-[1.05]">
                     {/* Image Container */}
-                    <div className="relative h-[600px] w-full overflow-hidden rounded-xl bg-white dark:bg-zinc-800 shadow-lg border border-zinc-200 dark:border-zinc-700 transition-all duration-300 group-hover:shadow-2xl group-hover:scale-[1.05]">
+                    <div className="relative w-full overflow-hidden rounded-xl">
                       <Image 
                         src={card.image} 
                         alt={card.title}
-                        fill
-                        className="object-cover"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        className="w-full h-auto object-cover"
                         priority={card.id <= 4}
                       />
                     </div>
@@ -118,22 +116,22 @@ export default function CardsShowcase() {
               </SwiperSlide>
             ))}
           </Swiper>
-          
-          {/* Custom Navigation Arrows */}
-          <button className="cards-swiper-button-prev absolute -left-6 top-1/3 -translate-y-1/2 z-20 flex h-12 w-12 items-center justify-center rounded-full bg-white/95 dark:bg-zinc-800/95 shadow-lg border border-zinc-200 dark:border-zinc-600 transition-all duration-300 hover:scale-110 hover:bg-white dark:hover:bg-zinc-700">
-            <svg className="h-6 w-6 text-zinc-900 dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
-            </svg>
-          </button>
-          <button className="cards-swiper-button-next absolute -right-6 top-1/3 -translate-y-1/2 z-20 flex h-12 w-12 items-center justify-center rounded-full bg-white/95 dark:bg-zinc-800/95 shadow-lg border border-zinc-200 dark:border-zinc-600 transition-all duration-300 hover:scale-110 hover:bg-white dark:hover:bg-zinc-700">
-            <svg className="h-6 w-6 text-zinc-900 dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
-            </svg>
-          </button>
         </div>
 
       {/* Custom Styles for Pagination */}
       <style jsx global>{`
+        .cards-showcase-swiper {
+          overflow: visible !important;
+        }
+        
+        .cards-showcase-swiper .swiper-wrapper {
+          overflow: visible !important;
+        }
+        
+        .cards-showcase-swiper .swiper-slide {
+          overflow: visible !important;
+        }
+        
         .cards-showcase-swiper .swiper-pagination {
           bottom: -40px !important;
         }

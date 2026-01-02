@@ -43,7 +43,7 @@ export default function TermsOfUse() {
                             <li>Use Nous Meeting for any criminal activity</li>
                             <li>Engage in actions that may result in civil liability</li>
                             <li>Impersonate any person, entity, or organization</li>
-                            <li>Upload, transmit, or introduce any viruses, Trojan horses, or other harmful code that may damage or disrupt Nous Meeting or its users' systems</li>
+                            <li>Upload, transmit, or introduce any viruses, Trojan horses, or other harmful code that may damage or disrupt Nous Meeting or its users&apos; systems</li>
                             <li>Upload, post, email, or otherwise transmit content you are not legally authorized to share</li>
                             <li>Modify, delete, or damage any content posted on Nous Meeting</li>
                             <li>Disrupt or interfere with Nous Meeting, its servers, or its networks</li>
@@ -83,11 +83,11 @@ export default function TermsOfUse() {
                         <div className="bg-red-50 dark:bg-red-950/30 border-l-4 border-red-600 p-6 rounded-lg my-6">
                             <h3 className="text-xl font-bold text-red-800 dark:text-red-400 mb-3">CRITICAL: YOU ARE SOLELY RESPONSIBLE FOR RECORDING COMPLIANCE</h3>
                             <p className="font-semibold text-red-700 dark:text-red-300">
-                                BY USING NOUS MEETING'S RECORDING FEATURES, YOU ACKNOWLEDGE AND AGREE THAT YOU, NOT NOUS MEETING, ARE SOLELY AND EXCLUSIVELY RESPONSIBLE FOR COMPLYING WITH ALL APPLICABLE FEDERAL, STATE, LOCAL, AND INTERNATIONAL RECORDING, WIRETAPPING, SURVEILLANCE, AND DATA PROTECTION LAWS. NOUS MEETING IS A TECHNOLOGY SERVICE PROVIDER ONLY AND BEARS ABSOLUTELY NO RESPONSIBILITY FOR YOUR LEGAL COMPLIANCE OR NON-COMPLIANCE.
+                            BY USING NOUS MEETING&apos;S RECORDING FEATURES, YOU ACKNOWLEDGE AND AGREE THAT YOU, NOT NOUS MEETING, ARE SOLELY AND EXCLUSIVELY RESPONSIBLE FOR COMPLYING WITH ALL APPLICABLE FEDERAL, STATE, LOCAL, AND INTERNATIONAL RECORDING, WIRETAPPING, SURVEILLANCE, AND DATA PROTECTION LAWS. NOUS MEETING IS A TECHNOLOGY SERVICE PROVIDER ONLY AND BEARS ABSOLUTELY NO RESPONSIBILITY FOR YOUR LEGAL COMPLIANCE OR NON-COMPLIANCE.
                             </p>
                         </div>
 
-                        <h3 className="text-xl font-semibold mt-6 mb-3">A. Nous Meeting's Role as Technology Provider</h3>
+                        <h3 className="text-xl font-semibold mt-6 mb-3">A. Nous Meeting&apos;s Role as Technology Provider</h3>
                         <p className="font-semibold">a) Limited Role:</p>
                         <p>Nous Meeting provides software technology that enables users to record, transcribe, and analyze meetings. We act solely as a technology service provider and do not provide legal advice, legal compliance services, or legal guidance of any kind.</p>
                         
@@ -141,7 +141,7 @@ export default function TermsOfUse() {
                         <p>You are strictly prohibited from using recording features to:</p>
                         <ul className="list-disc pl-6 space-y-1 mt-2">
                             <li>Record without required legal notice and consent</li>
-                            <li>Violate any person's privacy rights or reasonable expectation of privacy</li>
+                            <li>Violate any person&apos;s privacy rights or reasonable expectation of privacy</li>
                             <li>Engage in illegal surveillance, wiretapping, stalking, or harassment</li>
                             <li>Record for blackmail, extortion, or other criminal purposes</li>
                             <li>Violate intellectual property rights, confidentiality agreements, or attorney-client privilege</li>
@@ -156,7 +156,7 @@ export default function TermsOfUse() {
                         <ul className="list-disc pl-6 space-y-1">
                             <li>Criminal prosecution, imprisonment, and substantial fines</li>
                             <li>Civil lawsuits for statutory and actual damages (including treble damages in some states)</li>
-                            <li>Attorney's fees and court costs</li>
+                            <li>Attorney&apos;s fees and court costs</li>
                             <li>Exclusion of recordings as evidence in legal proceedings</li>
                             <li>Professional discipline and employment termination</li>
                             <li>Additional penalties under industry-specific regulations (HIPAA, FERPA, etc.)</li>
@@ -188,14 +188,14 @@ export default function TermsOfUse() {
 
                         <h3 className="text-xl font-semibold mt-6 mb-3">H. Indemnification for Recording-Related Claims</h3>
                         <p className="font-bold">
-                            YOU AGREE TO DEFEND, INDEMNIFY, AND HOLD HARMLESS THE NOUS MEETING PARTIES FROM AND AGAINST ANY AND ALL CLAIMS, DAMAGES, LIABILITIES, COSTS, AND EXPENSES (INCLUDING REASONABLE ATTORNEYS' FEES AND COURT COSTS) ARISING FROM OR RELATED TO:
+                            YOU AGREE TO DEFEND, INDEMNIFY, AND HOLD HARMLESS THE NOUS MEETING PARTIES FROM AND AGAINST ANY AND ALL CLAIMS, DAMAGES, LIABILITIES, COSTS, AND EXPENSES (INCLUDING REASONABLE ATTORNEYS&apos; FEES AND COURT COSTS) ARISING FROM OR RELATED TO:
                         </p>
                         <ul className="list-disc pl-6 space-y-1 mt-2">
                             <li>Your use or misuse of recording features</li>
                             <li>Your violations of any recording, privacy, or data protection laws</li>
                             <li>Your failure to obtain required consents or provide required notices</li>
                             <li>Any third-party claims related to your recording activities</li>
-                            <li>Any other conduct related to your use of Nous Meeting's recording technology</li>
+                            <li>Any other conduct related to your use of Nous Meeting&apos;s recording technology</li>
                         </ul>
                         <p className="mt-2">This indemnification obligation survives termination of your account and continues in perpetuity for any recording-related claims.</p>
 
@@ -275,7 +275,7 @@ export default function TermsOfUse() {
                         
                         <h3 className="text-xl font-semibold mt-6 mb-3">D. Changes to Policy</h3>
                         <p>
-                            Nous Meeting's Privacy Policy, Terms of Use, and other policies are updated periodically. The information on our platform may not immediately reflect these changes. Your continued use of Nous Meeting after changes are posted constitutes acceptance of the updated terms.
+                            Nous Meeting&apos;s Privacy Policy, Terms of Use, and other policies are updated periodically. The information on our platform may not immediately reflect these changes. Your continued use of Nous Meeting after changes are posted constitutes acceptance of the updated terms.
                         </p>
 
                         <h2 className="text-2xl font-bold mt-10 mb-4 text-zinc-800 dark:text-white">VIII. MISCELLANEOUS TERMS</h2>

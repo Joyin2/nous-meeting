@@ -1,25 +1,31 @@
 'use client'
+import { useState } from 'react'
 import { PlayCircle, Zap, Users, Brain } from 'lucide-react'
 
 export default function VideoTutorial() {
+  const [activeVideo, setActiveVideo] = useState(0)
+
   const features = [
     { 
       icon: Zap, 
       title: 'Quick Setup', 
       desc: 'Get started in minutes with our intuitive interface',
-      color: 'from-amber-500 to-orange-500'
+      color: 'from-amber-500 to-orange-500',
+      videoUrl: 'https://www.youtube.com/embed/HQvixIwL6sw?si=pzag0IbcMNzJQErf'
     },
     { 
       icon: Users, 
       title: 'Seamless Integration', 
       desc: 'Connect directly with your Zoom account',
-      color: 'from-blue-500 to-cyan-500'
+      color: 'from-blue-500 to-cyan-500',
+      videoUrl: 'https://www.youtube.com/embed/dyP_l0B5r5A?si=nB4RQUXEH9WifVLU'
     },
     { 
       icon: Brain, 
       title: 'Smart Features', 
       desc: 'Automatic transcription and AI-powered summaries',
-      color: 'from-purple-500 to-pink-500'
+      color: 'from-purple-500 to-pink-500',
+      videoUrl: 'https://www.youtube.com/embed/eKFTkx1qwyo?si=b1A6PykcsTAAA4dX'
     }
   ]
 
@@ -36,7 +42,8 @@ export default function VideoTutorial() {
           {features.map((feature, idx) => (
             <div
               key={idx}
-              className="group relative overflow-hidden rounded-2xl bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
+              onMouseEnter={() => setActiveVideo(idx)}
+              className="group relative overflow-hidden rounded-2xl bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 cursor-pointer"
               style={{
                 animationDelay: `${idx * 100}ms`
               }}
@@ -78,9 +85,10 @@ export default function VideoTutorial() {
           <div className="relative rounded-2xl overflow-hidden bg-zinc-900 shadow-2xl border border-zinc-200 dark:border-zinc-700 transform group-hover:scale-[1.02] transition-transform duration-500">
             <div className="relative aspect-video">
               <iframe 
+                key={features[activeVideo].videoUrl}
                 className="absolute inset-0 w-full h-full"
-                src="https://www.youtube.com/embed/dyP_l0B5r5A?si=nB4RQUXEH9WifVLU" 
-                title="How to Create & Join a Zoom Meeting Using NousMeeting | Step-by-Step Tutorial" 
+                src={features[activeVideo].videoUrl}
+                title="YouTube video player" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                 referrerPolicy="strict-origin-when-cross-origin" 
                 allowFullScreen

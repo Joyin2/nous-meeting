@@ -29,7 +29,7 @@ export default function PrivacyPolicy() {
                     <div className="bg-white dark:bg-zinc-900/50 rounded-3xl p-8 md:p-12 border border-zinc-200 dark:border-zinc-800 shadow-sm">
                         
                         <p className="lead text-lg">
-                            Welcome to Nous Meeting's website and application. Nous Meeting provides an AI-powered smart meeting assistant designed including but not limited to record, transcribe, summarize, extract action items, analyze speaker sentiment, prepare reports, and manage follow-ups. The service caters to a wide range of users, regardless of their professional background or personal needs. Additionally, the platform aims to make learning about Nous Meeting's application and business activities easier and facilitate communication with the platform.
+                            Welcome to Nous Meeting&apos;s website and application. Nous Meeting provides an AI-powered smart meeting assistant designed including but not limited to record, transcribe, summarize, extract action items, analyze speaker sentiment, prepare reports, and manage follow-ups. The service caters to a wide range of users, regardless of their professional background or personal needs. Additionally, the platform aims to make learning about Nous Meeting&apos;s application and business activities easier and facilitate communication with the platform.
                         </p>
                         <p>
                             We recognize the importance of privacy, and we are committed to protecting your personal information. This Privacy Policy outlines how Nous Meeting collects, uses, and safeguards your data when you interact with our website and application.
@@ -37,15 +37,15 @@ export default function PrivacyPolicy() {
 
                         <h2 className="text-2xl font-bold mt-10 mb-4 text-zinc-800 dark:text-white">1. Applicability of This Policy</h2>
                         <p>
-                            This Privacy Policy applies solely to Nous Meeting's website and application. If you visit any third-party websites or applications through our platform, we advise you to review their respective privacy policies.
+                            This Privacy Policy applies solely to Nous Meeting&apos;s website and application. If you visit any third-party websites or applications through our platform, we advise you to review their respective privacy policies.
                         </p>
                         <p className="text-sm bg-zinc-50 dark:bg-zinc-800/50 p-4 rounded-lg border-l-4 border-nous-blue">
-                            For the purposes of this policy, "Nous Meeting" refers to the application owned by Next Generation Innovation L.L.C., a company registered in the State of New York as a limited liability company.
+                            For the purposes of this policy, &quot;Nous Meeting&quot; refers to the application owned by Next Generation Innovation L.L.C., a company registered in the State of New York as a limited liability company.
                         </p>
 
                         <h2 className="text-2xl font-bold mt-10 mb-4 text-zinc-800 dark:text-white">2. Personal Information</h2>
                         <p>
-                            "Personal information" refers to any information that can be used to identify an individual, such as name, date of birth, address, phone number, voice recordings, emotions, and sentiments. This also includes identifiable information related to a juridical entity.
+                            &quot;Personal information&quot; refers to any information that can be used to identify an individual, such as name, date of birth, address, phone number, voice recordings, emotions, and sentiments. This also includes identifiable information related to a juridical entity.
                         </p>
 
                         <h2 className="text-2xl font-bold mt-10 mb-4 text-zinc-800 dark:text-white">3. Information We Collect</h2>
@@ -71,7 +71,7 @@ export default function PrivacyPolicy() {
 
                         <h3 className="text-xl font-semibold mt-6 mb-3">3.3 Cookies</h3>
                         <p>
-                            Nous Meeting uses "persistent" and "session" cookies, which store data temporarily for the duration of your visit or longer, depending on your browser settings. You can manage cookie preferences through your browser settings, though disabling certain cookies may impact your ability to use some website features.
+                            Nous Meeting uses &quot;persistent&quot; and &quot;session&quot; cookies, which store data temporarily for the duration of your visit or longer, depending on your browser settings. You can manage cookie preferences through your browser settings, though disabling certain cookies may impact your ability to use some website features.
                         </p>
 
                         <h3 className="text-xl font-semibold mt-6 mb-3">3.4 Text Message Data</h3>
@@ -131,8 +131,8 @@ export default function PrivacyPolicy() {
                             Nous Meeting provides functionality that allows hosts and authorized participants to record meetings for transcription, summarization, and analysis purposes. By providing this functionality, Nous Meeting acts solely as a technology service provider and assumes absolutely no responsibility for how users employ these recording features or whether such use complies with applicable laws.
                         </p>
 
-                        <h3 className="text-xl font-semibold mt-6 mb-3">6.1 Nous Meeting's Role as Technology Provider</h3>
-                        <p className="font-semibold">Nous Meeting's Role:</p>
+                        <h3 className="text-xl font-semibold mt-6 mb-3">6.1 Nous Meeting&apos;s Role as Technology Provider</h3>
+                        <p className="font-semibold">Nous Meeting&apos;s Role:</p>
                         <p>Nous Meeting provides software and technology that enables users to record meetings. We are a technology service provider, not a legal advisor, and we do not provide legal advice regarding recording compliance.</p>
                         
                         <p className="font-semibold mt-4">What We Do NOT Do:</p>
@@ -147,14 +147,14 @@ export default function PrivacyPolicy() {
                         </ul>
 
                         <p className="font-semibold mt-4">Your Acknowledgment:</p>
-                        <p>By using Nous Meeting's recording features, you acknowledge and agree that you are solely responsible for ensuring compliance with all applicable laws. Nous Meeting makes no representations or warranties regarding the legality of recording in any jurisdiction or circumstance.</p>
+                        <p>By using Nous Meeting&apos;s recording features, you acknowledge and agree that you are solely responsible for ensuring compliance with all applicable laws. Nous Meeting makes no representations or warranties regarding the legality of recording in any jurisdiction or circumstance.</p>
 
-                        <h3 className="text-xl font-semibold mt-6 mb-3">6.2 Host's Exclusive Responsibility for Legal Compliance</h3>
+                        <h3 className="text-xl font-semibold mt-6 mb-3">6.2 Host&apos;s Exclusive Responsibility for Legal Compliance</h3>
                         <p>As the meeting host or user initiating a recording, you bear complete and exclusive legal responsibility for:</p>
                         <ul className="list-disc pl-6 space-y-1 mt-2">
                             <li>Researching and understanding all applicable recording laws in the jurisdictions where you and your participants are located</li>
                             <li>Determining whether you are in a one-party consent or two-party/all-party consent jurisdiction</li>
-                            <li>Identifying the locations of all meeting participants and determining which jurisdiction's laws apply</li>
+                            <li>Identifying the locations of all meeting participants and determining which jurisdiction&apos;s laws apply</li>
                             <li>Providing clear, conspicuous, and legally adequate notice to all participants that recording will occur</li>
                             <li>Obtaining all necessary consents as required by applicable federal, state, local, and international laws</li>
                             <li>Documenting and maintaining records of all consents obtained</li>
@@ -186,14 +186,14 @@ export default function PrivacyPolicy() {
 
                         <h3 className="text-xl font-semibold mt-6 mb-3">6.4 U.S. Federal Law Requirements</h3>
                         <p>
-                            Under the Electronic Communications Privacy Act or "Federal Wiretap Act", it is a federal crime to intercept or record any wire, oral, or electronic communication without the consent of at least one party to the conversation.
+                            Under the Electronic Communications Privacy Act or &quot;Federal Wiretap Act&quot;, it is a federal crime to intercept or record any wire, oral, or electronic communication without the consent of at least one party to the conversation.
                         </p>
                         <p className="font-semibold mt-3">Host Responsibility:</p>
                         <p>You must ensure at minimum that at least one party to the conversation (which may be you as the host) consents to any recording. However, stricter state laws may apply and require all-party consent. You are responsible for determining and complying with the most restrictive applicable law.</p>
 
-                        <h3 className="text-xl font-semibold mt-6 mb-3">6.5 U.S. State Recording Laws - Host's Responsibility to Comply</h3>
+                        <h3 className="text-xl font-semibold mt-6 mb-3">6.5 U.S. State Recording Laws - Host&apos;s Responsibility to Comply</h3>
                         <p>
-                            Recording laws vary significantly by U.S. state. Some states require consent from all parties ("all-party consent" states), while others require consent from only one party ("one-party consent" states). As the host, you are solely responsible for determining which laws apply and ensuring compliance.
+                            Recording laws vary significantly by U.S. state. Some states require consent from all parties (&quot;all-party consent&quot; states), while others require consent from only one party (&quot;one-party consent&quot; states). As the host, you are solely responsible for determining which laws apply and ensuring compliance.
                         </p>
 
                         <h4 className="text-lg font-semibold mt-4 mb-2">6.5.1 All-Party Consent States</h4>
@@ -222,13 +222,13 @@ export default function PrivacyPolicy() {
                         <p className="font-semibold mt-3">Host Responsibility:</p>
                         <p>Even in one-party consent states, you remain responsible for determining applicable laws, as participants may be calling from all-party consent jurisdictions. Additionally, providing notice to all participants is strongly recommended as best practice and to avoid civil liability, workplace disputes, or professional sanctions.</p>
 
-                        <h4 className="text-lg font-semibold mt-4 mb-2">6.5.3 Determining Applicable Law - Host's Responsibility</h4>
+                        <h4 className="text-lg font-semibold mt-4 mb-2">6.5.3 Determining Applicable Law - Host&apos;s Responsibility</h4>
                         <p className="font-semibold">Multi-Jurisdictional Meetings:</p>
                         <p>When participants are in different states or countries, the most restrictive law generally applies. This means:</p>
                         <ul className="list-disc pl-6 space-y-1 mt-2">
                             <li>If ANY participant is in an all-party consent state, you must obtain consent from ALL participants</li>
                             <li>You must research the location of each participant and determine applicable laws</li>
-                            <li>If participants' locations are unknown, you should assume all-party consent is required</li>
+                            <li>If participants&apos; locations are unknown, you should assume all-party consent is required</li>
                         </ul>
                         <p className="font-bold mt-3 text-red-700 dark:text-red-400">
                             YOU, NOT NOUS MEETING, ARE SOLELY RESPONSIBLE FOR MAKING THESE LEGAL DETERMINATIONS.
@@ -241,14 +241,14 @@ export default function PrivacyPolicy() {
                         <ul className="list-disc pl-6 space-y-1">
                             <li>Criminal prosecution, fines, and imprisonment</li>
                             <li>Civil lawsuits for statutory and actual damages (some states provide for treble damages)</li>
-                            <li>Attorney's fees and court costs awarded to prevailing plaintiffs</li>
+                            <li>Attorney&apos;s fees and court costs awarded to prevailing plaintiffs</li>
                             <li>Exclusion of illegally obtained recordings as evidence in legal proceedings</li>
                             <li>Professional discipline, employment termination, or other workplace consequences</li>
                             <li>Reputational damage and loss of trust</li>
                             <li>Additional penalties under specific industry regulations (HIPAA, FERPA, etc.)</li>
                         </ul>
 
-                        <h3 className="text-xl font-semibold mt-6 mb-3">6.6 International Recording Laws - Host's Responsibility</h3>
+                        <h3 className="text-xl font-semibold mt-6 mb-3">6.6 International Recording Laws - Host&apos;s Responsibility</h3>
                         <p>
                             When recording meetings with international participants, you must comply with all applicable international laws, which often impose stricter requirements than U.S. law. As the host, you are solely responsible for:
                         </p>
@@ -286,7 +286,7 @@ export default function PrivacyPolicy() {
                             While Nous Meeting implements technical security measures (encryption at rest and in transit, access controls, etc.), you are responsible for all policy decisions regarding recordings and for ensuring your use complies with applicable data protection laws.
                         </p>
 
-                        <h3 className="text-xl font-semibold mt-6 mb-3">6.8 AI Processing of Recordings - Host's Responsibility</h3>
+                        <h3 className="text-xl font-semibold mt-6 mb-3">6.8 AI Processing of Recordings - Host&apos;s Responsibility</h3>
                         <p>
                             Nous Meeting uses artificial intelligence to process recordings for transcription, summarization, action item extraction, and sentiment analysis. As the host, you are solely responsible for:
                         </p>
@@ -301,7 +301,7 @@ export default function PrivacyPolicy() {
                         <p>You are strictly prohibited from using recording features to:</p>
                         <ul className="list-disc pl-6 space-y-1 mt-2">
                             <li>Record without required legal notice and consent</li>
-                            <li>Violate any person's privacy rights, confidentiality obligations, or reasonable expectation of privacy</li>
+                            <li>Violate any person&apos;s privacy rights, confidentiality obligations, or reasonable expectation of privacy</li>
                             <li>Engage in illegal surveillance, wiretapping, stalking, harassment, or intimidation</li>
                             <li>Record for blackmail, extortion, coercion, or other criminal purposes</li>
                             <li>Violate intellectual property rights, trade secrets, attorney-client privilege, or confidentiality agreements</li>
@@ -347,7 +347,7 @@ export default function PrivacyPolicy() {
 
                         <p className="font-bold mt-4">DISCLAIMER OF LIABILITY:</p>
                         <p>
-                            NOUS MEETING, NEXT GENERATION INNOVATION L.L.C., AND THEIR RESPECTIVE OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, AFFILIATES, SUCCESSORS, AND ASSIGNS (COLLECTIVELY, "NOUS MEETING PARTIES") EXPRESSLY DISCLAIM ALL LIABILITY FOR:
+                            NOUS MEETING, NEXT GENERATION INNOVATION L.L.C., AND THEIR RESPECTIVE OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, AFFILIATES, SUCCESSORS, AND ASSIGNS (COLLECTIVELY, &quot;NOUS MEETING PARTIES&quot;) EXPRESSLY DISCLAIM ALL LIABILITY FOR:
                         </p>
                         <ul className="list-disc pl-6 space-y-1 mt-2">
                             <li>Your violations of any recording, wiretapping, surveillance, or privacy laws</li>
@@ -360,7 +360,7 @@ export default function PrivacyPolicy() {
 
                         <p className="font-bold mt-4">INDEMNIFICATION:</p>
                         <p>
-                            BY USING NOUS MEETING'S RECORDING FEATURES, YOU AGREE TO DEFEND, INDEMNIFY, AND HOLD HARMLESS THE NOUS MEETING PARTIES FROM AND AGAINST ANY AND ALL CLAIMS, DAMAGES, LIABILITIES, COSTS, AND EXPENSES (INCLUDING REASONABLE ATTORNEYS' FEES AND COURT COSTS) ARISING FROM OR RELATED TO:
+                            BY USING NOUS MEETING&apos;S RECORDING FEATURES, YOU AGREE TO DEFEND, INDEMNIFY, AND HOLD HARMLESS THE NOUS MEETING PARTIES FROM AND AGAINST ANY AND ALL CLAIMS, DAMAGES, LIABILITIES, COSTS, AND EXPENSES (INCLUDING REASONABLE ATTORNEYS&apos; FEES AND COURT COSTS) ARISING FROM OR RELATED TO:
                         </p>
                         <ul className="list-disc pl-6 space-y-1 mt-2">
                             <li>Your use or misuse of recording features</li>
@@ -368,7 +368,7 @@ export default function PrivacyPolicy() {
                             <li>Your failure to obtain required consents or provide required notices</li>
                             <li>Any third-party claims related to your recording activities</li>
                             <li>Your breach of any provision of this Privacy Policy regarding recording</li>
-                            <li>Any other conduct related to your use of Nous Meeting's recording technology</li>
+                            <li>Any other conduct related to your use of Nous Meeting&apos;s recording technology</li>
                         </ul>
                         <p className="mt-2">This indemnification obligation survives termination of your account and continues in perpetuity for any recording-related claims.</p>
 
@@ -379,7 +379,7 @@ export default function PrivacyPolicy() {
 
                         <p className="font-bold mt-4">ACKNOWLEDGMENT AND AGREEMENT:</p>
                         <p>
-                            By using Nous Meeting's recording features, you acknowledge that you have read, understood, and agreed to all provisions of this Section 6, including all disclaimers, limitations of liability, and indemnification obligations. You acknowledge that you are solely responsible for all legal compliance related to recording and that Nous Meeting bears no responsibility whatsoever for your compliance or non-compliance with applicable laws.
+                            By using Nous Meeting&apos;s recording features, you acknowledge that you have read, understood, and agreed to all provisions of this Section 6, including all disclaimers, limitations of liability, and indemnification obligations. You acknowledge that you are solely responsible for all legal compliance related to recording and that Nous Meeting bears no responsibility whatsoever for your compliance or non-compliance with applicable laws.
                         </p>
 
                         <h2 className="text-2xl font-bold mt-10 mb-4 text-zinc-800 dark:text-white">7. Information Use and Disclosure</h2>
@@ -425,9 +425,9 @@ export default function PrivacyPolicy() {
                             To exercise these rights, please contact us at privacy@nousmeeting.com. We will respond to your request in accordance with applicable law.
                         </p>
 
-                        <h2 className="text-2xl font-bold mt-10 mb-4 text-zinc-800 dark:text-white">10. Children's Privacy</h2>
+                        <h2 className="text-2xl font-bold mt-10 mb-4 text-zinc-800 dark:text-white">10. Children&apos;s Privacy</h2>
                         <p>
-                            Our services are not intended for children under 13 years of age (or under 16 in certain jurisdictions). We do not knowingly collect personal information from children. If you become aware that a child has provided us with personal information without parental consent, please contact us immediately at privacy@nousmeeting.com, and we will take steps to delete such information. We strongly advise parents or guardians to monitor their children's online activity and ensure that children are not submitting personal information without proper supervision and consent.
+                            Our services are not intended for children under 13 years of age (or under 16 in certain jurisdictions). We do not knowingly collect personal information from children. If you become aware that a child has provided us with personal information without parental consent, please contact us immediately at privacy@nousmeeting.com, and we will take steps to delete such information. We strongly advise parents or guardians to monitor their children&apos;s online activity and ensure that children are not submitting personal information without proper supervision and consent.
                         </p>
 
                         <h2 className="text-2xl font-bold mt-10 mb-4 text-zinc-800 dark:text-white">11. External Links and Third-Party Services</h2>
@@ -442,7 +442,7 @@ export default function PrivacyPolicy() {
 
                         <h2 className="text-2xl font-bold mt-10 mb-4 text-zinc-800 dark:text-white">13. Changes to This Privacy Policy</h2>
                         <p>
-                            Nous Meeting reserves the right to modify or update this Privacy Policy at any time to reflect changes in our practices, legal requirements, or business operations. We will notify you of any material changes by posting the new privacy policy on this page, updating the "Effective Date" at the top, and providing notice through our platform or via email where appropriate. Your continued use of our services after such changes constitutes acceptance of the updated policy. We encourage users to periodically review this Privacy Policy to stay informed about how we are protecting your information.
+                            Nous Meeting reserves the right to modify or update this Privacy Policy at any time to reflect changes in our practices, legal requirements, or business operations. We will notify you of any material changes by posting the new privacy policy on this page, updating the &quot;Effective Date&quot; at the top, and providing notice through our platform or via email where appropriate. Your continued use of our services after such changes constitutes acceptance of the updated policy. We encourage users to periodically review this Privacy Policy to stay informed about how we are protecting your information.
                         </p>
 
                         <h2 className="text-2xl font-bold mt-10 mb-4 text-zinc-800 dark:text-white">14. User Responsibility</h2>
@@ -475,7 +475,7 @@ export default function PrivacyPolicy() {
                             </p>
 
                             <p className="font-bold text-red-700 dark:text-red-300">
-                                BY USING NOUS MEETING'S RECORDING FEATURES, YOU ACKNOWLEDGE THAT YOU BEAR FULL AND EXCLUSIVE LEGAL RESPONSIBILITY FOR ALL RECORDING ACTIVITIES AND THAT YOU HAVE CONSULTED OR WILL CONSULT WITH APPROPRIATE LEGAL COUNSEL TO ENSURE COMPLIANCE WITH ALL APPLICABLE LAWS IN ALL RELEVANT JURISDICTIONS.
+                                BY USING NOUS MEETING&apos;S RECORDING FEATURES, YOU ACKNOWLEDGE THAT YOU BEAR FULL AND EXCLUSIVE LEGAL RESPONSIBILITY FOR ALL RECORDING ACTIVITIES AND THAT YOU HAVE CONSULTED OR WILL CONSULT WITH APPROPRIATE LEGAL COUNSEL TO ENSURE COMPLIANCE WITH ALL APPLICABLE LAWS IN ALL RELEVANT JURISDICTIONS.
                             </p>
                         </div>
 
