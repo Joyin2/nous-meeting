@@ -72,23 +72,6 @@ export default function HelpCenter() {
                     </p>
                 </div>
 
-                <div className="mb-16">
-                    <h3 className="text-2xl font-bold mb-8 text-center">Quick Overview</h3>
-                    <p className="text-center text-zinc-600 dark:text-zinc-400 mb-10">Here&apos;s a quick overview of what you can do with Nous Meeting:</p>
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {overviewItems.map((item, i) => (
-                            <Tilt3D key={i} className="h-full">
-                                <div className="h-full p-6 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900/50 hover:bg-zinc-50 dark:hover:bg-zinc-900 transition-colors shadow-sm">
-                                    <div className="w-8 h-8 rounded-full bg-nous-blue/10 flex items-center justify-center text-nous-blue mb-4">
-                                        <span className="font-bold">{i + 1}</span>
-                                    </div>
-                                    <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">{item}</p>
-                                </div>
-                            </Tilt3D>
-                        ))}
-                    </div>
-                </div>
-
                 <div className="flex flex-wrap justify-center gap-6">
                     <Tilt3D>
                         <button className="flex items-center gap-3 px-8 py-4 rounded-xl bg-zinc-100 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 hover:border-nous-blue dark:hover:border-nous-pink transition-all group">
@@ -103,6 +86,25 @@ export default function HelpCenter() {
                         </button>
                     </Tilt3D>
                 </div>
+
+                <div className="my-16">
+                    <h3 className="text-2xl font-bold mb-8 text-center">Quick Overview</h3>
+                    <p className="text-center text-zinc-600 dark:text-zinc-400 mb-10">Here&apos;s a quick overview of what you can do with Nous Meeting:</p>
+                    <div className="flex flex-wrap justify-center gap-6 max-w-6xl mx-auto">
+                        {overviewItems.map((item, i) => (
+                            <Tilt3D key={i} className="h-full w-full sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)]">
+                                <div className="h-full p-6 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900/50 hover:bg-zinc-50 dark:hover:bg-zinc-900 transition-colors shadow-sm">
+                                    <div className="w-8 h-8 rounded-full bg-nous-blue/10 flex items-center justify-center text-nous-blue mb-4">
+                                        <span className="font-bold">{i + 1}</span>
+                                    </div>
+                                    <p className="text-zinc-700 dark:text-zinc-300 leading-relaxed">{item}</p>
+                                </div>
+                            </Tilt3D>
+                        ))}
+                    </div>
+                </div>
+
+                
              </div>
         </section>
 
